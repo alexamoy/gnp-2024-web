@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&family=Monsieur+La+Doulaise&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 .App {
   text-align: center;
   width: 100%;
@@ -48,16 +52,13 @@
   background-repeat: no-repeat;
   background-size: cover;
   /* Add the blur effect */
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
 }
 
 .landing-page-text {
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
   color: white;
   font-weight: bold;
-  border: 3px solid #f1f1f1;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -66,4 +67,41 @@
   width: 80%;
   padding: 20px;
   text-align: center;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.alexa-luke-text-container {
+  display: flex !important;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.name-text {
+  font-family: "Frank Ruhl Libre", serif;
+  font-size: 100px;
+}
+.ampersand-text {
+  font-family: "Monsieur La Doulaise", cursive;
+  font-size: 200px;
+}
+.wedding-date-text {
+  font-family: "Monsieur La Doulaise", cursive;
+  font-size: 50px;
+  margin-top: -75px;
+}
+
+.wedding-location-text {
+  font-family: "Frank Ruhl Libre", serif;
+  font-size: 50px;
+}
+
+.menu-drawer > div{
+  width: 20%;
+}
+.menu-drawer-header {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right: 0px !important;
 }
